@@ -1,0 +1,244 @@
+﻿
+html {
+    background:#141310;
+    min-height:100%;
+    position: relative;
+}
+
+body {
+    min-height:100%;
+    background:transparent;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    color:#ffffff
+}
+
+img {
+    width: 100%
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Helvetica;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+p {
+    font-family: Helvetica;
+}
+
+.schmo-container {
+    margin-top: 10px; 
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.schmo-container h1,h2,h3,h4,h5,h6 {
+    font-family: Helvetica;
+    font-weight: 600;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+.schmo-container p {
+    font-family: Helvetica;
+    letter-spacing: 2px;
+    line-height: 20px;
+    text-align: center;
+} 
+
+.schmo-gig-container { 
+    padding-top: 10px; 
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+.schmo-gig-container h3,h4{ 
+    font-family: Helvetica;
+    font-weight: 200;
+    letter-spacing: 6px;
+    text-align: center;
+}
+
+.schmo-gig-container h5,h6{ 
+    font-family: Helvetica;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.schmo-container hr {
+    border: 0;
+    height: 1px;
+    max-width: 400px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc);
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc);
+}
+
+/* Carousel base class */
+.carousel {
+  height: 100%;
+  margin-bottom: 60px;
+}
+
+.carosel-inner {
+    height: 100%;
+}
+
+.carosel-inner .item {
+    height: 100%;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: auto;
+    height: auto;
+    min-height: 500px;
+    vertical-align: middle;
+    margin: 0 auto;
+}
+
+.navbar-schmo .navbar-brand {
+    font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    padding-top:15px;
+    padding-bottom:15px;
+    font-weight:bold;
+    font-size:xx-large;
+    color:#ffffff;
+    font-weight: 600;
+}
+
+.navbar-schmo .navbar-brand a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar-schmo .navbar-brand a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar-schmo .navbar-header {
+    background: black;
+    filter: none;
+}
+
+.navbar-schmo .navbar-inner {
+    background: black;
+}
+
+.navbar-schmo .navbar-inner .nav {
+    float: right;
+}
+
+.navbar-schmo .navbar-inner .collapse .nav {
+ /*   float: right;*/
+}
+
+.navbar-schmo .navbar-inner .nav li a {
+	background: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    color: #ffffff;
+    letter-spacing: 2px;
+	font-size: 11px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background: black;
+}
+
+@media only screen and (min-width: 481px) {
+    .footer-inner {
+        margin: 0 auto;
+        text-align: right;
+    }
+
+    .footer-inner ul {
+        padding: 10px 30px 10px 0;
+    }
+
+    .footer-inner ul li {
+        padding: 0 10px 0 10px;
+        display: inline;
+        list-style-type: none;
+    }    
+}
+
+@media only screen and (max-width: 480px) {
+    .footer-inner {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .footer-inner ul {
+        padding: 10px 0 10px 0;
+    }
+
+    .footer-inner ul li {
+        padding: 0 10px 0 10px;
+        display: inline;
+        list-style-type: none;
+    }    
+}
+
+.footer-inner li a {
+    color: #ffffff;
+} 
+
+#image1 {
+    background-image: url(/Content/Img/unnamed.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#image2 {
+    background-image:  url(/Content/Img/band_banner_keys.jpg);
+    background-position:top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#image3 {
+    background-image:  url(/Content/Img/band_at_kakis_party.jpg);
+    background-position:top center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
